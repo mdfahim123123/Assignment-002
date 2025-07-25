@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+/* color-1 */
+.text-black{
+    color: #252432;
+}
+/* color-2 */
+.text-gray{
+    color: #8987A1;
+}
+/* color-3 */
+.text-orange{
+    color: #E95A08;
+}
+
+
+
+
+/* header styles */
+.bannar{
+    justify-content: center;
+    align-items: center;
+    margin: 100px 150px;
+}
+
+
+
+
+
+/* navbar related styles*/
+.nav-item{
+    list-style: none;
+    margin: 30px;
+}
+
+
+.nav-link{
+    text-decoration: none;
+}
+
+.navbar{
+    justify-content: space-between;
+}
+
+.main-text{
+    font width: bold;
+}
+
+
+/* second section */
+.card-title, .card-description{
+    text-align: center;
+}
+.card-content{
+    margin: 20px 150px;
+}
+
+.main-card{
+    width: 250px;
+    height: 400
+    ;
+}
+.btn{
+    background-color: #E95A08;
+    border: none;
+    width: 270px;
+    height: 30px;
+    color: white;
+}
+.text{
+
+    text-align: center;
+}
+
+.full-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+/* responsive media quary */
+@media screen and (max-width: 576px) {
+    .navbar, .bannar{
+        flex-direction: column; 
+        margin: auto             ;
+    }
+}
+
+
