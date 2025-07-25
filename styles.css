@@ -119,6 +119,19 @@ text-align: center;
     width: 100%;
     margin-top: 50px;
 }
+
+
+/* footer styles */
+
+.footer-part{
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+
+
+
 /* responsive media quary */
 @media screen and (max-width: 576px) {
     .navbar, .bannar{
