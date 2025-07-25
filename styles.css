@@ -89,12 +89,47 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
+
+/* section-02 */
+.work-pic{
+    margin-top: 50px;
+    width: 50%;
+}
+
+.section-2{
+    display: flex;
+    gap: 60px;
+     margin-top: 20px;
+     align-items: center ;
+     height: 400px;
+}
+
+.challage-pic{
+    margin-top: 300px;
+    margin-left: 400px;
+}
+
+
+
 /* responsive media quary */
 @media screen and (max-width: 576px) {
     .navbar, .bannar{
         flex-direction: column; 
-        margin: auto             ;
+        margin: auto 
+        img{
+            width: 100%;
+            }           ;
     }
+
+    .full-card{
+        grid-template-columns: repeat(2, 1fr);
+        gap: auto;
+        width: 50%;
+    }
+    .section-2{
+        flex-direction: column;
+        align-items: center;
+    }   
 }
 
 
